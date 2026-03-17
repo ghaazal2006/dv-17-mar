@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XYZ Inc. | Timesheet</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <div class="brand">
+        <span class="brand-icon">▦</span>
+        <h1>XYZ Inc.</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="timesheet.html" class="active">Timesheet</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap page timesheet-page">
+    <h2>Timesheet</h2>
+    <p class="intro">Enter hours for current work period:</p>
+
+    <form class="timesheet-form" action="#" method="post">
+      <div class="days-row">
+        <div class="day-field">
+          <label for="monday">Monday:</label>
+          <input type="text" id="monday" name="monday">
+        </div>
+
+        <div class="day-field">
+          <label for="tuesday">Tuesday:</label>
+          <input type="text" id="tuesday" name="tuesday">
+        </div>
+
+        <div class="day-field">
+          <label for="wednesday">Wednesday:</label>
+          <input type="text" id="wednesday" name="wednesday">
+        </div>
+
+        <div class="day-field">
+          <label for="thursday">Thursday:</label>
+          <input type="text" id="thursday" name="thursday">
+        </div>
+
+        <div class="day-field">
+          <label for="friday">Friday:</label>
+          <input type="text" id="friday" name="friday">
+        </div>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Made for CPRG 213</p>
+    <p>Widget icons created by zafdesign - Flaticon</p>
+  </footer>
+</body>
+</html>
